@@ -1,0 +1,76 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.App .hr{
+  color: black;
+  background-color: black;
+  width: 500px;
+  height: 2px;
+}
+
+.information{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.information input{
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  margin: 5px;
+  padding-left: 10px;
+}
+
+.information button{
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+.information button:hover{
+  cursor: pointer;
+}
+
+.employees{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: aqua;
+  flex-direction: column;
+}
+
+.employee{
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+  width: 100%;
+  /* height: 220px;  */ 
+  border: 1px solid black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.employee h3{
+  margin: 20px;  
+}
+
+.employee .icon{
+  padding: 15px;
+  font-size: 25px;
+  
+}
+
+.danger{
+  color: red;
+}
+.btn-close{
+  font-size: 30px;
+  width: 50px;
+  background-color: none;
+  text-align: end;
+  border: none;
+  outline: none;
+}
